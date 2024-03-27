@@ -1,6 +1,5 @@
 import React from 'react'
 import "./About.css";
-// import Progress from '../components/Progress'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About() {
@@ -22,7 +21,6 @@ function About() {
                 effectively in the industry.
                 </p>
                 </div>
-                {/* expHeading */}
                 {/* <h3 className='aboutHeading2'>My Experience</h3> */}
                 <div className= 'aboutSubsec1_2'>
                 {/* <div className='experienceSection'>

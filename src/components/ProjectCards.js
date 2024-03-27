@@ -12,7 +12,7 @@ const ProjectCards = ({ title, description, imgUrl, skills}) => {
     const openDetails = () => {
       setModalShow(true);
     };
-  // const [modalShow, setModalShow] = useState(modal);
+    
   const [projectTitle, setTitle] = useState("");
   const [projectDescription, setDescrip] = useState("");
 
@@ -38,7 +38,7 @@ const ProjectCards = ({ title, description, imgUrl, skills}) => {
 
         case 'Feeding London Web App': 
         setTitle("Features I developed for Feeding London Web App"); 
-        setDescrip("need to explain*** .Below is the demo of the web app and clicking View code will redirect you to the Github repository.");
+        setDescrip("This application was developed in regards to the sustainable development goal 'zero hunger'. The app allows people to post food for free or post adverts of discounted food in supermarkets and food store and people can search for this food using the borough map. The app has capabilities to automatically delete expired adverts and very old adverts and also allows users to manage their profile.Below is the demo of the web app.");
         setProjectVideo("https://www.youtube.com/embed/58-dmwdMNiY?si=V5SznNu16wytt3BV")
         setCodeLink('https://github.com/BrunelCS/cs2001-2022_23-groupone/tree/refton3')
         break;

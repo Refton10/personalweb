@@ -20,7 +20,6 @@ function ProjectModal(props) {
         <p>
           {props.description}
         </p>
-        {/* <video src={props.video} width="600" height="300" controls="controls" autoplay="true" /> */}
         <iframe class="responsive-iframe" width="560" height="315" src={props.video}
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" allowFullScreen="true">

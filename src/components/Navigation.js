@@ -29,7 +29,9 @@ let navMenu2 = document.getElementById('navMen2');
   });
 }
 
+
 const [scrolled, setScrolled] = useState(false);
+
 
 useEffect(() => {
   const onScroll = () => {
@@ -40,6 +42,8 @@ useEffect(() => {
       setScrolled(false);
     }
   }
+  updateActiveLink("");
+
 
   window.addEventListener("scroll", onScroll);
 
@@ -48,21 +52,9 @@ useEffect(() => {
 
 
 
-    return (
-      //   <Navbar bg="light" expand="lg" className={['navBar', scrolled ? "scrolled" : ""]} style={{display: 'none'}}>
-      //   <Container>
-      //     <Navbar.Brand href="#home">LOGO</Navbar.Brand>
 
-      //     <Navbar.Collapse className='NavMenu'>
-      //       <Nav className="">
-      //         <Nav.Link href="#home" className={['navBtn', activeLink === 'Home' ? 'active navbar-link' : 'navbar-link']} onClick={()=> updateActiveLink('Home')}>Home</Nav.Link>
-      //         <Nav.Link href="#Aboutpage" className={['navBtn', activeLink === 'About' ? 'active navbar-link' : 'navbar-link']} onClick={()=> updateActiveLink('About')}>About</Nav.Link>
-      //         <Nav.Link href="#Projectpage" className={['navBtn', activeLink === 'Projects' ? 'active navbar-link' : 'navbar-link']} onClick={()=> updateActiveLink('Projects')}>Projects</Nav.Link>
-      //         <Nav.Link href="#contact" className={['navBtn', activeLink === 'Contact' ? 'active navbar-link' : 'navbar-link']} onClick={()=> updateActiveLink('Contact')}>Contact</Nav.Link>
-      //       </Nav>
-      //     </Navbar.Collapse>
-      //   </Container>
-      // </Navbar>
+
+    return (
 
 <Navbar bg="light" expand="lg" className={['navBar', scrolled ? "scrolled" : ""]}>
 <Container>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Typewriter = () => {
   const textLines = [
-    'A Computer Science student at Brunel University London and a junior full stack developer.'
+    'A final year Computer Science student at Brunel University London, aspiring towards a career in software engineering and software development.'
   ];
   const [currentLine, setCurrentLine] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -18,7 +18,7 @@ const Typewriter = () => {
       }
     };
 
-    const typingInterval = setInterval(typeWriter, 75); // Adjust typing speed as needed
+    const typingInterval = setInterval(typeWriter, 45); // Adjust typing speed as needed
 
     return () => {
       clearInterval(typingInterval);

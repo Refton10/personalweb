@@ -104,15 +104,8 @@ function Project1()
                 <ProjectCards key={project.title} {...project} />
               ))}
                     
-
-
-
-
-
                   </div>
                 </div>
-    
-                {/* {selectedProject && <ProjectCards title={projects}/>} */}
             </div>
             </div>
         </section>
