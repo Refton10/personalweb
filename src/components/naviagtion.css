@@ -1,0 +1,175 @@
+.navBar{
+    /* display: flexbox !important;; */
+    width: 100%;
+    height: 60px;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    /* background-color: gray !important; */
+}
+
+.NavMenu{
+    /* display: flex !important;
+    width: 200%;
+    text-align: center !important;
+    align-items: center !important; */
+    display: flex !important;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center !important;
+}
+
+
+.navBtn{
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;;
+    /* background-color: white; */
+    border-radius: 20px !important;
+    margin: 10px ;
+    padding: 4px !important;
+    cursor: pointer !important;
+    width: 80px;
+    height: 35px;
+    border: none;
+    text-decoration: none;
+}
+
+/************ Navbar Css ************/
+nav.navbar {
+    /* padding: 18px 0; */
+    /* position: fixed; */
+    display: flexbox !important;;
+    /* background-color: gray !important; */
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition:  0.32s ease-in-out;
+  }
+  /* nav.navbar.scrolled {
+    padding: 0px 0;
+    background-color: #121212;
+    display: none;
+  } */
+  nav.navbar a.navbar-brand {
+      width: 100%;
+  }
+  nav.navbar .navbar-nav .nav-link.navbar-link {
+    display: flex;
+    font-weight: 400;
+    color: #000000 !important;
+    letter-spacing: 0.8px;
+    padding: 0 25px;
+    /* font-size: 18px; */
+    opacity: 0.75;
+    text-align: center !important;
+    justify-content: center;
+  }
+  nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
+  nav.navbar .navbar-nav a.nav-link.navbar-link.active {
+     /* background-color: blue; *** ADD A GOOD COLOR*/
+     /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
+     background: rgb(255,91,91);
+     background: radial-gradient(circle, rgba(255,91,91,1) 0%, rgba(255,154,72,1) 100%);
+     border: 1px solid rgba(255, 255, 255, 0.5);
+     opacity: 1;
+  }
+ 
+
+  .NavOnScroll{
+    border-radius: 30px;
+    background-color: #00000023;
+  }
+
+  .NavOnScrollBox{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    z-index: 9999;
+  }
+
+  @media only screen and  (max-width: 1000px){
+    .navbarBrand{
+     width: 40% !important; 
+    }
+  
+    .navbar-nav{
+      flex-direction: row;
+    }
+/* chekc */
+    .container{
+      width: 760px !important;
+    }
+  
+    .navbar-expand-lg 
+    .navbar-collapse {
+        display: flex;
+        flex-basis: auto;
+    }
+    
+    }
+
+
+@media only screen and  (max-width: 900px){
+  .navbarBrand{
+   width: 30% !important; 
+  }
+
+  .navbar-nav{
+    flex-direction: row;
+  }
+
+  .container{
+    margin-right: 20px !important;
+    margin-left: 50px;
+  }
+
+  .navbar-expand-lg 
+  .navbar-collapse {
+      display: flex;
+      flex-basis: auto;
+  }
+  
+  }
+  
+  @media only screen and  (max-width: 500px){
+    .navbarBrand{
+      width: 20% !important; 
+      font-size: 18px;
+     }
+   
+     .navbar-nav{
+       flex-direction: row;
+     }
+   
+     .container{
+       margin-right: 2% !important;
+       margin-left: 3%;
+       padding: 0%;
+     }
+   
+     .navbar-expand-lg 
+     .navbar-collapse {
+         display: flex;
+         flex-basis: auto;
+     }
+
+     #navMen1{
+      /* font-size: 3px; */
+      width: 265px;
+     }
+
+     .navBtn{
+      font-size: 13px;
+      font-weight: 600 !important;
+      margin: 3px;
+      padding: 2px !important;
+      width: 70px;
+      height: 35px;
+     }
+  
+
+  
+    
+    }
