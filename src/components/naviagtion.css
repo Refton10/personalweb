@@ -168,8 +168,41 @@ nav.navbar {
       width: 70px;
       height: 35px;
      }
-  
+    }
 
+    @media screen and (max-width: 600px) {
+      .navbarBrand{
+        width: 20% !important; 
+        font-size: 18px;
+       }
+     
+       .navbar-nav{
+         flex-direction: row;
+       }
+     
+       .container{
+         margin-right: 2% !important;
+         margin-left: 3%;
+         padding: 0%;
+       }
+     
+       .navbar-expand-lg 
+       .navbar-collapse {
+           display: flex;
+           flex-basis: auto;
+       }
   
-    
+       #navMen1{
+        /* font-size: 3px; */
+        width: 265px;
+       }
+  
+       .navBtn{
+        font-size: 13px;
+        font-weight: 600 !important;
+        margin: 3px;
+        padding: 2px !important;
+        width: 70px;
+        height: 35px;
+       }
     }
