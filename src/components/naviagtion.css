@@ -170,7 +170,7 @@ nav.navbar {
      }
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 630px) {
       .navbarBrand{
         width: 20% !important; 
         font-size: 18px;
