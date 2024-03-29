@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/personalweb/static/css/main.c090dead.css",
+    "main.js": "/personalweb/static/js/main.5474f93f.js",
+    "static/js/787.a840fbe2.chunk.js": "/personalweb/static/js/787.a840fbe2.chunk.js",
+    "static/media/weather.png": "/personalweb/static/media/weather.090abf775afa309ab8f5.png",
+    "static/media/covid.png": "/personalweb/static/media/covid.cacb20f5c9e1bcec749f.png",
+    "static/media/enviro.png": "/personalweb/static/media/enviro.1686ee4fa91482b4805b.png",
+    "static/media/feedingLondon.jpeg": "/personalweb/static/media/feedingLondon.1b7b9ed3b4f6aa56f631.jpeg",
+    "static/media/airbus.png": "/personalweb/static/media/airbus.e485e20b64296ce35fda.png",
+    "static/media/shroomys.png": "/personalweb/static/media/shroomys.34e9a613e5e6fadc3446.png",
+    "static/media/IMG_0565.JPG": "/personalweb/static/media/IMG_0565.cc395820007e6db77e5e.JPG",
+    "static/media/cinema.png": "/personalweb/static/media/cinema.2a0fc89cbcab2d1780a8.png",
+    "static/media/guessNum.png": "/personalweb/static/media/guessNum.0532ef005237f0a8b102.png",
+    "index.html": "/personalweb/index.html",
+    "main.c090dead.css.map": "/personalweb/static/css/main.c090dead.css.map",
+    "main.5474f93f.js.map": "/personalweb/static/js/main.5474f93f.js.map",
+    "787.a840fbe2.chunk.js.map": "/personalweb/static/js/787.a840fbe2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c090dead.css",
+    "static/js/main.5474f93f.js"
+  ]
+}
