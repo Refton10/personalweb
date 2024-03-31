@@ -45,7 +45,6 @@ function About() {
                             <ul className='listTech'>
                                 <li>Communication: Excellent verbal and written communication skills, demonstrated through group projects and presentations.</li>
                                 <li>Problem Solving: Strong analytical and problem-solving skills developed through coursework and personal projects.</li>
-                                <li>Communication: Excellent verbal and written communication skills, demonstrated through group projects and presentations.</li>
                                 <li>Teamwork: Collaborative approach to working in team environments, with experience in group coding projects and discussion.</li>
                                 <li>Learning Agility: Proven ability to quickly learn new technologies and adapt to changing environments.</li>
                                 <li>Time Management: Effective time management skills, demonstrated through successful completion of academic projects.</li>
