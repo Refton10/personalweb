@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css";
-import myImg from '../Images/img/IMG_0565.JPG'
+// import myImg from '../Images/img/IMG_0565.JPG';
+import img from '../Images/img/refImage.png';
 import Typewriter from './HomeTextTypeWriter';
 
 
@@ -20,7 +21,7 @@ function Home() {
             </div>
 
             <div className ='homeSubsec2'>
-                <img src={myImg} alt='mypicture' className='myImage'></img>
+                <img src={img} alt='mypicture' className='myImage'></img>
             </div>
         </div>
     )

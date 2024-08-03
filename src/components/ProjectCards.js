@@ -77,6 +77,13 @@ const ProjectCards = ({ title, description, imgUrl, skills}) => {
             setProjectVideo("https://www.youtube.com/embed/u8Vuq5drmpk?si=7glqo3WUXdgOZVnD")
             setCodeLink('')
             break;
+
+            case 'Job Tracking Web App': 
+            setTitle("Job Tracking Web Application"); 
+            setDescrip("Job Tracking Web Application provides an efficient solution for managing and monitoring your job applications. By entering key details through an intuitive form, your data is securely stored in a MongoDB database. The backend processes allow you to easily access vital job statistics, including total applications, rejections, no responses, and offers received. You can update your job listings in real-time as you receive new information from recruiters, ensuring your records are always current. Additionally, the web app offers robust data management capabilities, allowing you to manually delete job listings and automatically removing rejected and no-response listings after six months. This web app streamlines your job search process, helping you stay organized and informed at every step.");
+            setProjectVideo("https://www.youtube.com/embed/sR8Ohri2Hzk?si=VhJJcRF3LBRvoiUF")
+            setCodeLink('')
+            break;
   
       default:
         setTitle("Title");

@@ -9,6 +9,7 @@ import cinema from '../Images/img/cinema.png';
 import ProjectCards  from '../components/ProjectCards';
 import shroomys from '../Images/img/shroomys.png';
 import enviro from '../Images/img/enviro.png';
+import jobTrack from '../Images/img/jobtrack.png';
 
 
 const projects = [
@@ -62,6 +63,12 @@ const projects = [
       "disposed of and have a quiz on this topic. That focuses on raising awareness and knowledge about recycling and proper waste disposal.",
       imgUrl: enviro,
       skills: "C#, Unity Game Engine"
+    },
+    {
+      title: "Job Tracking Web App",
+      description: "Job Tracking Web Application streamlines your job search by managing applications, tracking stats, and updating job statuses seamlessly",
+      imgUrl: jobTrack,
+      skills: "HTML, CSS, JS, JAVA, SpringBoot, MongoDB"
     },
 ];
 

@@ -13,7 +13,7 @@ function About() {
                
                 <div className= 'aboutSubsec1_1'>
                 <p className='aboutPara1'>
-                I'm a passionate computer science student at Brunel University, eager to 
+                I'm a passionate computer science graduate, eager to 
                 make a positive impact through software development. I constantly strive to learn 
                 new skills, languages, frameworks, and principles as technology evolves. 
                 My coursework has honed my critical thinking, time management, communication, 

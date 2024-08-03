@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 const Typewriter = () => {
   const textLines = [
-    'A final year Computer Science student at Brunel University London, aspiring towards a career in software engineering and software development.'
+    'Computer Science graduate with First Class Honours, aspiring towards a career in software engineering and software development.'
   ];
   const [currentLine, setCurrentLine] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
